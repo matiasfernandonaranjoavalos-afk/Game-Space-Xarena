@@ -9,10 +9,9 @@ branches:
 jobs:
 build:
 runs-on: ubuntu-latest
-
 steps:
-  - name: Descargar codigo
-    uses: actions/checkout@v4
+- name: Descargar codigo
+uses: actions/checkout@v4
 
   - name: Instalar Java
     uses: actions/setup-java@v4
